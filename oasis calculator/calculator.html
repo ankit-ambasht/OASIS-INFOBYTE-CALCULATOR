@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OAISI CALCULATOR</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <div class="ground">
+      <div class="mid">
+        <div class="calculator">
+          <input type="text" id="output" />
+
+          <div class="btn">
+            <input id="color2" type="button" value="(" onclick="dis('(')" />
+            <input id="color2" type="button" value=")" onclick="dis(')')" />
+            <input id="color2" type="button" value="ans" onclick="solve()" />
+            <input id="color2" type="button" value="del" onclick="del()" />
+            <input id="color2" type="button" value="AC" onclick="clr()" />
+          </div>
+          <div class="btn">
+            <input id="color1" type="button" value="7" onclick="dis('7')" />
+            <input id="color1"  type="button" value="8" onclick="dis('8')" />
+            <input id="color1" type="button" value="9" onclick="dis('9')" />
+            <input id="color2" type="button" value="%" onclick="dis('%')" />
+            <input id="color2" type="button" value="&#8730" onclick="root()" />
+        </div>
+          <div class="btn">
+            <input id="color1" type="button" value="4" onclick="dis('4')" />
+            <input id="color1" type="button" value="5" onclick="dis('5')" />
+            <input id="color1" type="button" value="6" onclick="dis('6')" />
+            <input id="color2" type="button" value="*" onclick="dis('*')" />
+            <input id="color2" type="button" value="&#xF7" onclick="dis('/')" />
+          </div>
+          <div class="btn">
+            <input id="color1" type="button" value="1" onclick="dis('1')" />
+            <input id="color1" type="button" value="2" onclick="dis('2')" />
+            <input id="color1" type="button" value="3" onclick="dis('3')" />
+            <input id="color2" type="button" value="+" onclick="dis('+')" />
+            <input id="color2" type="button" value="-" onclick="dis('-')" />
+          </div>
+
+          <div class="btn">
+            <input id="color2" type="button" value="." onclick="dis('.')" />
+            <input id="color1" type="button" value="0" onclick="dis('0')" />
+            <input id="color2" type="button" value="&#XB1" onclick="solve()" />
+            <input id="big" id="color3"  type="button" value="ENTER" onclick="solve()" />
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="calculator.js"></script>
+</html>
